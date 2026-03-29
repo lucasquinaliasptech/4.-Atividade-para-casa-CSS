@@ -3,4 +3,42 @@
 .container {
     font-family: Arial, sans-serif;
     padding: 20px;
+    background-color: green;
+    color: blue;
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.titulo_principal {
+    color: green;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: gold;
+}
+
+.conteudo {
+    background-color: greenyellow;
+    color: brown;
+}
+
+.conteudo h1 {
+    color: #e4005a;
+    font-size: 42px;
+}
+
+.conteudo p:nth-child(4) {
+    color: purple;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        background-color: lightblue;
+    }
 }
